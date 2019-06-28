@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Dollars
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-card *ngIf="information">
+    <ion-card-header>
+      <ion-card-subtitle>Cambio Bancario</ion-card-subtitle>
+      <ion-card-title>PESO POR DOLAR</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+
+      {{ information.rates.MXN }}
+
+    </ion-card-content>
+  </ion-card>
+
+
+  <ion-card *ngIf="information">
+    <ion-card-header>
+      <ion-card-subtitle>Cambio Bancario</ion-card-subtitle>
+      <ion-card-title>EUROS POR DOLAR</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+
+      {{ information.rates.EUR }}
+
+    </ion-card-content>
+  </ion-card>
+
+  
+</ion-content>

@@ -1,0 +1,18 @@
+{
+  "cordova-plugin-calllog": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-calllog"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "mx.ferreyra.callnumber": {
+    "source": {
+      "type": "registry",
+      "id": "call-number"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}

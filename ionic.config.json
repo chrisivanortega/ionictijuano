@@ -1,0 +1,7 @@
+{
+  "name": "tijuano",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
